@@ -30,10 +30,10 @@ Nitro::Application.configure do
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
-    domain: ENV["DOMAIIN_NAME"],
+    domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
-    user_name: ENV["gmail_username"],
-    password: ENV["gmail_password"]
+    user_name: ENV["GMAIL_USERNAME"],
+    password: ENV["GMAIL PASSWORD"]
   }
 
   config.action_mailer.perform_deliveries = true
