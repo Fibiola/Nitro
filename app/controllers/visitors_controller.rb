@@ -1,5 +1,5 @@
 # We define class name it and tell it to inherit from AppController from Rails API
-class visitorsController < ApplicationController
+class VisitorsController < ApplicationController
 
 	def new 
 		# @owner is an instance variable (because of @)
