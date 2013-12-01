@@ -33,7 +33,7 @@ Nitro::Application.configure do
     domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
     user_name: ENV["GMAIL_USERNAME"],
-    password: ENV["GMAIL PASSWORD"]
+    password: ENV["GMAIL_PASSWORD"]
   }
 
   config.action_mailer.perform_deliveries = true
